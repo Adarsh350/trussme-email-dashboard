@@ -40,15 +40,6 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <div className="px-4 py-2">
             <SidebarNav />
           </div>
-          
-          <div className="px-4 py-2 mt-4 border-t border-white/[0.04]">
-            <div className="flex items-center gap-2 px-3 py-4">
-              <Sparkles className="w-3.5 h-3.5 text-primary-400 shrink-0" />
-              <div className="flex flex-col">
-                <p className="text-[11px] text-surface-500 font-medium">built by Iyara Labs</p>
-              </div>
-            </div>
-          </div>
         </div>
       </aside>
 
