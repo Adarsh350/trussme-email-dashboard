@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import {
   LayoutDashboard,
   Mail,
@@ -10,6 +10,7 @@ import {
   X,
   BarChart3,
   Sparkles,
+  LogOut,
 } from "lucide-react";
 import { useState } from "react";
 
@@ -97,28 +98,46 @@ export function AppShell({ children }: { children: React.ReactNode }) {
 
 function SidebarNav({ onNavigate }: { onNavigate?: () => void }) {
   const pathname = usePathname();
+  const router = useRouter();
+
+  const handleSignOut = async () => {
+    await fetch("/api/auth/logout", { method: "POST" });
+    router.push("/login");
+    router.refresh();
+  };
 
   return (
-    <nav className="flex-1 space-y-1">
-      {NAV_ITEMS.map((item) => {
-        const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
-        const Icon = item.icon;
-        return (
-          <Link
-            key={item.href}
-            href={item.href}
-            onClick={onNavigate}
-            className={`group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm transition-all duration-300 ${
-              isActive
-                ? "bg-primary-500/10 text-primary-400 font-semibold shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] ring-1 ring-primary-500/20"
-                : "text-surface-400 font-medium hover:text-surface-100 hover:bg-surface-100/[0.03]"
-            }`}
-          >
-            <Icon className={`w-[18px] h-[18px] transition-transform duration-300 ${isActive ? "text-primary-400" : "group-hover:scale-110"}`} />
-            {item.label}
-          </Link>
-        );
-      })}
-    </nav>
+    <>
+      <nav className="flex-1 space-y-1">
+        {NAV_ITEMS.map((item) => {
+          const isActive = pathname === item.href || pathname.startsWith(item.href + "/");
+          const Icon = item.icon;
+          return (
+            <Link
+              key={item.href}
+              href={item.href}
+              onClick={onNavigate}
+              className={`group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm transition-all duration-300 ${
+                isActive
+                  ? "bg-primary-500/10 text-primary-400 font-semibold shadow-[inset_0_1px_0_0_rgba(255,255,255,0.05)] ring-1 ring-primary-500/20"
+                  : "text-surface-400 font-medium hover:text-surface-100 hover:bg-surface-100/[0.03]"
+              }`}
+            >
+              <Icon className={`w-[18px] h-[18px] transition-transform duration-300 ${isActive ? "text-primary-400" : "group-hover:scale-110"}`} />
+              {item.label}
+            </Link>
+          );
+        })}
+      </nav>
+      <div className="pt-2 mt-2 border-t border-white/[0.04]">
+        <button
+          onClick={handleSignOut}
+          className="w-full group flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm transition-all duration-300 text-surface-400 font-medium hover:text-red-400 hover:bg-red-500/10"
+        >
+          <LogOut className="w-[18px] h-[18px] transition-transform duration-300 group-hover:scale-110" />
+          Sign Out
+        </button>
+      </div>
+    </>
   );
 }
