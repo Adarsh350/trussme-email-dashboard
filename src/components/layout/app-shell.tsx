@@ -33,8 +33,8 @@ export function AppShell({ children }: { children: React.ReactNode }) {
               <BarChart3 className="w-4 h-4 text-white" />
             </div>
             <div>
-              <h1 className="text-sm font-semibold tracking-tight text-white">Mailchimp Live</h1>
-              <p className="text-[9px] text-surface-500 uppercase tracking-widest font-medium mt-0.5">Email Marketing Dashboard</p>
+              <h1 className="text-sm font-semibold tracking-tight text-white">AI Dashboard</h1>
+              <p className="text-[9px] text-surface-500 uppercase tracking-widest font-medium mt-0.5">for Email Marketing</p>
             </div>
           </div>
           
@@ -46,8 +46,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <div className="flex items-center gap-2 px-3 py-4">
               <Sparkles className="w-3.5 h-3.5 text-primary-400 shrink-0" />
               <div className="flex flex-col">
-                <p className="text-[11px] text-surface-500 font-medium">built by Iyara Labs</p>
-                <p className="text-[9px] text-surface-600 uppercase tracking-widest mt-0.5 font-semibold">Powered by Mailchimp API</p>
+                <p className="text-[11px] text-surface-500 font-medium">Built By Adarsh Shankar</p>
               </div>
             </div>
           </div>
@@ -61,7 +60,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-gradient-to-b from-primary-400 to-primary-600 shadow-glow">
               <BarChart3 className="w-3.5 h-3.5 text-white" />
             </div>
-            <span className="text-white text-sm font-semibold tracking-tight">Mailchimp Live</span>
+            <span className="text-white text-sm font-semibold tracking-tight">AI Dashboard</span>
           </div>
           <button
             onClick={() => setSidebarOpen(!sidebarOpen)}
