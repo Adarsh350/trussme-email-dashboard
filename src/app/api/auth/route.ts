@@ -3,14 +3,14 @@ import { NextResponse } from "next/server";
 export async function POST(request: Request) {
   try {
     const { password } = await request.json();
-    const dashboardPassword = process.env.DASHBOARD_PASSWORD;
+    const dashboardPassword = (process.env.DASHBOARD_PASSWORD ?? "").trim();
 
     if (!dashboardPassword || dashboardPassword === "changeme") {
       // No password configured — allow access
       return NextResponse.json({ success: true });
     }
 
-    if (password !== dashboardPassword) {
+    if (password.trim() !== dashboardPassword) {
       return NextResponse.json({ error: "Invalid password" }, { status: 401 });
     }
 
