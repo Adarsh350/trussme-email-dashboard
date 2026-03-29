@@ -12,285 +12,317 @@ import type {
 
 const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
   {
-    id: "camp_001",
-    web_id: 1001,
-    type: "regular",
-    create_time: "2026-02-01T10:00:00+00:00",
-    archive_url: "https://example.com/archive/1",
-    long_archive_url: "https://example.com/archive/1",
-    status: "sent",
-    emails_sent: 12450,
-    send_time: "2026-03-10T14:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "All subscribers",
-      recipient_count: 12450,
+    "id": "camp_001",
+    "web_id": 1000,
+    "type": "regular",
+    "create_time": "2026-03-27T16:38:12.114Z",
+    "archive_url": "https://example.com/archive/1",
+    "long_archive_url": "https://example.com/archive/1",
+    "status": "sent",
+    "emails_sent": 49622,
+    "send_time": "2026-03-29T16:38:12.114Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 49622
     },
-    settings: {
-      subject_line: "March Product Updates — New Features Inside",
-      preview_text: "See what's new this month",
-      title: "March 2026 Newsletter",
-      from_name: "Product Team",
-      reply_to: "hello@company.com",
+    "settings": {
+      "subject_line": "So, here’s what’s changed since we last worked together",
+      "preview_text": "Important updates from Master Systems",
+      "title": "So, here’s what’s changed since we last worked together",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 6890,
-      unique_opens: 4200,
-      open_rate: 0.337,
-      clicks: 2100,
-      subscriber_clicks: 1400,
-      click_rate: 0.112,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 22675,
+      "unique_opens": 19273,
+      "open_rate": 0.4569624765395183,
+      "clicks": 11452,
+      "subscriber_clicks": 9734,
+      "click_rate": 0.230801662782594
+    }
   },
   {
-    id: "camp_002",
-    web_id: 1002,
-    type: "regular",
-    create_time: "2026-02-15T09:00:00+00:00",
-    archive_url: "https://example.com/archive/2",
-    long_archive_url: "https://example.com/archive/2",
-    status: "sent",
-    emails_sent: 11800,
-    send_time: "2026-03-03T10:30:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "Active subscribers",
-      recipient_count: 11800,
+    "id": "camp_002",
+    "web_id": 1001,
+    "type": "regular",
+    "create_time": "2026-03-24T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/2",
+    "long_archive_url": "https://example.com/archive/2",
+    "status": "sent",
+    "emails_sent": 50129,
+    "send_time": "2026-03-26T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 50129
     },
-    settings: {
-      subject_line: "Your Weekly Digest — Top Stories This Week",
-      preview_text: "The best reads curated for you",
-      title: "Weekly Digest #47",
-      from_name: "Content Team",
-      reply_to: "hello@company.com",
+    "settings": {
+      "subject_line": "What if your equipment told you it was failing.. before it actually did?",
+      "preview_text": "Important updates from Master Systems",
+      "title": "What if your equipment told you it was failing.. before it actually did?",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 5820,
-      unique_opens: 3750,
-      open_rate: 0.318,
-      clicks: 1650,
-      subscriber_clicks: 1200,
-      click_rate: 0.102,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 31713,
+      "unique_opens": 26956,
+      "open_rate": 0.6326348070100096,
+      "clicks": 12341,
+      "subscriber_clicks": 10489,
+      "click_rate": 0.2462042054523127
+    }
   },
   {
-    id: "camp_003",
-    web_id: 1003,
-    type: "regular",
-    create_time: "2026-02-20T11:00:00+00:00",
-    archive_url: "https://example.com/archive/3",
-    long_archive_url: "https://example.com/archive/3",
-    status: "sent",
-    emails_sent: 8200,
-    send_time: "2026-02-25T09:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_002",
-      list_is_active: true,
-      list_name: "Product Updates",
-      segment_text: "Premium subscribers",
-      recipient_count: 8200,
+    "id": "camp_003",
+    "web_id": 1002,
+    "type": "regular",
+    "create_time": "2026-03-21T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/3",
+    "long_archive_url": "https://example.com/archive/3",
+    "status": "sent",
+    "emails_sent": 53659,
+    "send_time": "2026-03-23T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 53659
     },
-    settings: {
-      subject_line: "Exclusive: Early Access to Our New Platform",
-      preview_text: "Be the first to try it",
-      title: "Platform Launch Announcement",
-      from_name: "CEO",
-      reply_to: "ceo@company.com",
+    "settings": {
+      "subject_line": "This holiday season we honor those who keep the world moving",
+      "preview_text": "Important updates from Master Systems",
+      "title": "This holiday season we honor those who keep the world moving",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 5400,
-      unique_opens: 3900,
-      open_rate: 0.476,
-      clicks: 2800,
-      subscriber_clicks: 2100,
-      click_rate: 0.256,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 27971,
+      "unique_opens": 23775,
+      "open_rate": 0.5212781422627988,
+      "clicks": 9946,
+      "subscriber_clicks": 8454,
+      "click_rate": 0.18536927453608154
+    }
   },
   {
-    id: "camp_004",
-    web_id: 1004,
-    type: "regular",
-    create_time: "2026-01-20T08:00:00+00:00",
-    archive_url: "https://example.com/archive/4",
-    long_archive_url: "https://example.com/archive/4",
-    status: "sent",
-    emails_sent: 15200,
-    send_time: "2026-02-14T08:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "All subscribers",
-      recipient_count: 15200,
+    "id": "camp_004",
+    "web_id": 1003,
+    "type": "regular",
+    "create_time": "2026-03-18T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/4",
+    "long_archive_url": "https://example.com/archive/4",
+    "status": "sent",
+    "emails_sent": 49156,
+    "send_time": "2026-03-20T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 49156
     },
-    settings: {
-      subject_line: "Valentine's Day Special — 30% Off Everything",
-      preview_text: "Love is in the air, and so are savings",
-      title: "Valentine's Day Promo",
-      from_name: "Marketing Team",
-      reply_to: "deals@company.com",
+    "settings": {
+      "subject_line": "Important Update: Changes to HSSEQ Procedures for Enclosed Space Entry",
+      "preview_text": "Important updates from Master Systems",
+      "title": "Important Update: Changes to HSSEQ Procedures for Enclosed Space Entry",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 8300,
-      unique_opens: 5600,
-      open_rate: 0.368,
-      clicks: 3900,
-      subscriber_clicks: 2800,
-      click_rate: 0.184,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 26810,
+      "unique_opens": 22788,
+      "open_rate": 0.5454087023012357,
+      "clicks": 12708,
+      "subscriber_clicks": 10801,
+      "click_rate": 0.258527121432001
+    }
   },
   {
-    id: "camp_005",
-    web_id: 1005,
-    type: "regular",
-    create_time: "2026-01-10T10:00:00+00:00",
-    archive_url: "https://example.com/archive/5",
-    long_archive_url: "https://example.com/archive/5",
-    status: "sent",
-    emails_sent: 13100,
-    send_time: "2026-02-01T11:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "Engaged subscribers",
-      recipient_count: 13100,
+    "id": "camp_005",
+    "web_id": 1004,
+    "type": "regular",
+    "create_time": "2026-03-15T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/5",
+    "long_archive_url": "https://example.com/archive/5",
+    "status": "sent",
+    "emails_sent": 47776,
+    "send_time": "2026-03-17T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 47776
     },
-    settings: {
-      subject_line: "February Kickoff — What's Coming This Month",
-      preview_text: "Big things ahead",
-      title: "February Kickoff",
-      from_name: "Product Team",
-      reply_to: "hello@company.com",
+    "settings": {
+      "subject_line": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
+      "preview_text": "Important updates from Master Systems",
+      "title": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 5200,
-      unique_opens: 3400,
-      open_rate: 0.26,
-      clicks: 1300,
-      subscriber_clicks: 980,
-      click_rate: 0.075,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 29471,
+      "unique_opens": 25050,
+      "open_rate": 0.6168655173483757,
+      "clicks": 11533,
+      "subscriber_clicks": 9803,
+      "click_rate": 0.24140054521400262
+    }
   },
   {
-    id: "camp_006",
-    web_id: 1006,
-    type: "regular",
-    create_time: "2026-01-05T09:00:00+00:00",
-    archive_url: "https://example.com/archive/6",
-    long_archive_url: "https://example.com/archive/6",
-    status: "sent",
-    emails_sent: 14500,
-    send_time: "2026-01-15T10:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "All subscribers",
-      recipient_count: 14500,
+    "id": "camp_006",
+    "web_id": 1005,
+    "type": "regular",
+    "create_time": "2026-03-12T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/6",
+    "long_archive_url": "https://example.com/archive/6",
+    "status": "sent",
+    "emails_sent": 48809,
+    "send_time": "2026-03-14T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 48809
     },
-    settings: {
-      subject_line: "New Year, New Features — 2026 Roadmap Revealed",
-      preview_text: "See what we're building",
-      title: "2026 Roadmap",
-      from_name: "CTO",
-      reply_to: "tech@company.com",
+    "settings": {
+      "subject_line": "Reliable Mobile Phones for Tough Environments",
+      "preview_text": "Important updates from Master Systems",
+      "title": "Reliable Mobile Phones for Tough Environments",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 7800,
-      unique_opens: 5100,
-      open_rate: 0.352,
-      clicks: 3200,
-      subscriber_clicks: 2400,
-      click_rate: 0.166,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 24833,
+      "unique_opens": 21108,
+      "open_rate": 0.508786719385677,
+      "clicks": 10068,
+      "subscriber_clicks": 8557,
+      "click_rate": 0.2062873508730213
+    }
   },
   {
-    id: "camp_007",
-    web_id: 1007,
-    type: "regular",
-    create_time: "2025-12-20T10:00:00+00:00",
-    archive_url: "https://example.com/archive/7",
-    long_archive_url: "https://example.com/archive/7",
-    status: "sent",
-    emails_sent: 16800,
-    send_time: "2025-12-23T09:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_001",
-      list_is_active: true,
-      list_name: "Main Newsletter",
-      segment_text: "All subscribers",
-      recipient_count: 16800,
+    "id": "camp_007",
+    "web_id": 1006,
+    "type": "regular",
+    "create_time": "2026-03-09T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/7",
+    "long_archive_url": "https://example.com/archive/7",
+    "status": "sent",
+    "emails_sent": 58291,
+    "send_time": "2026-03-11T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 58291
     },
-    settings: {
-      subject_line: "Holiday Special — Year in Review + Exclusive Offers",
-      preview_text: "Thank you for an incredible year",
-      title: "Holiday Campaign 2025",
-      from_name: "CEO",
-      reply_to: "hello@company.com",
+    "settings": {
+      "subject_line": "UPDATE: Introducing NSR's MED-DNV Certified Fiber Optic Gyro Compass Series",
+      "preview_text": "Important updates from Master Systems",
+      "title": "UPDATE: Introducing NSR's MED-DNV Certified Fiber Optic Gyro Compass Series",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 9200,
-      unique_opens: 6300,
-      open_rate: 0.375,
-      clicks: 4100,
-      subscriber_clicks: 3100,
-      click_rate: 0.185,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
+    "report_summary": {
+      "opens": 32829,
+      "unique_opens": 27904,
+      "open_rate": 0.5631988587616327,
+      "clicks": 14735,
+      "subscriber_clicks": 12524,
+      "click_rate": 0.2527999717857362
+    }
   },
   {
-    id: "camp_008",
-    web_id: 1008,
-    type: "regular",
-    create_time: "2025-12-10T08:00:00+00:00",
-    archive_url: "https://example.com/archive/8",
-    long_archive_url: "https://example.com/archive/8",
-    status: "sent",
-    emails_sent: 9500,
-    send_time: "2025-12-12T14:00:00+00:00",
-    content_type: "html",
-    recipients: {
-      list_id: "list_002",
-      list_is_active: true,
-      list_name: "Product Updates",
-      segment_text: "Beta users",
-      recipient_count: 9500,
+    "id": "camp_008",
+    "web_id": 1007,
+    "type": "regular",
+    "create_time": "2026-03-06T16:38:12.120Z",
+    "archive_url": "https://example.com/archive/8",
+    "long_archive_url": "https://example.com/archive/8",
+    "status": "sent",
+    "emails_sent": 57920,
+    "send_time": "2026-03-08T16:38:12.120Z",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Globals",
+      "segment_text": "All active maritime clients",
+      "recipient_count": 57920
     },
-    settings: {
-      subject_line: "Beta Program Update — New Dashboard is Live",
-      preview_text: "Your feedback shaped this release",
-      title: "Beta Update Dec 2025",
-      from_name: "Product Team",
-      reply_to: "beta@company.com",
+    "settings": {
+      "subject_line": "Upgrade Your Fleet's Emergency Response with ACR Emergency Equipment",
+      "preview_text": "Important updates from Master Systems",
+      "title": "Upgrade Your Fleet's Emergency Response with ACR Emergency Equipment",
+      "from_name": "Master Systems Comm",
+      "reply_to": "info@mastersystems.com"
     },
-    tracking: { opens: true, html_clicks: true, text_clicks: true },
-    report_summary: {
-      opens: 4800,
-      unique_opens: 3200,
-      open_rate: 0.337,
-      clicks: 2100,
-      subscriber_clicks: 1600,
-      click_rate: 0.168,
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
     },
-  },
+    "report_summary": {
+      "opens": 37491,
+      "unique_opens": 31867,
+      "open_rate": 0.6472974660484342,
+      "clicks": 11308,
+      "subscriber_clicks": 9611,
+      "click_rate": 0.19524935566148688
+    }
+  }
 ];
 
 function createMockReport(campaign: MailchimpCampaign): MailchimpCampaignReport {
