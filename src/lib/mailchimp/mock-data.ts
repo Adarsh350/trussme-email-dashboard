@@ -12,29 +12,29 @@ import type {
 
 const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
   {
-    "id": "camp_001",
-    "web_id": 1000,
+    "id": "0e20bc6868",
+    "web_id": 10124488,
     "type": "regular",
-    "create_time": "2026-03-27T16:38:12.114Z",
-    "archive_url": "https://example.com/archive/1",
-    "long_archive_url": "https://example.com/archive/1",
+    "create_time": "2026-03-23T12:52:38+00:00",
+    "archive_url": "http://eepurl.com/jCj9z2",
+    "long_archive_url": "https://mailchi.mp/8a239851cb9e/so-heres-whats-changed-since-we-last-worked-together-10124488",
     "status": "sent",
-    "emails_sent": 49622,
-    "send_time": "2026-03-29T16:38:12.114Z",
+    "emails_sent": 3119,
+    "send_time": "2026-03-26T05:00:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 49622
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 3119
     },
     "settings": {
-      "subject_line": "So, here’s what’s changed since we last worked together",
-      "preview_text": "Important updates from Master Systems",
-      "title": "So, here’s what’s changed since we last worked together",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "Deploy gas detection in minutes - Honeywell MeshGuard Wireless Gas Detection System",
+      "preview_text": "Plant shutdowns don't wait for complex installations.",
+      "title": "Honeywell MeshGuard Wireless Gas Detection",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -42,38 +42,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 22675,
-      "unique_opens": 19273,
-      "open_rate": 0.4569624765395183,
-      "clicks": 11452,
-      "subscriber_clicks": 9734,
-      "click_rate": 0.230801662782594
+      "opens": 702,
+      "unique_opens": 575,
+      "open_rate": 0.22535738959906168,
+      "clicks": 262,
+      "subscriber_clicks": 222,
+      "click_rate": 0.08419634664541728
     }
   },
   {
-    "id": "camp_002",
-    "web_id": 1001,
+    "id": "c372af687f",
+    "web_id": 10124472,
     "type": "regular",
-    "create_time": "2026-03-24T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/2",
-    "long_archive_url": "https://example.com/archive/2",
+    "create_time": "2026-03-19T09:37:46+00:00",
+    "archive_url": "http://eepurl.com/jB5oPw",
+    "long_archive_url": "https://mailchi.mp/87d8e9a57a08/safe-passages-and-a-blessed-eid-from-our-team-to-yours",
     "status": "sent",
-    "emails_sent": 50129,
-    "send_time": "2026-03-26T16:38:12.120Z",
+    "emails_sent": 3042,
+    "send_time": "2026-03-19T11:31:42+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 50129
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 3042
     },
     "settings": {
-      "subject_line": "What if your equipment told you it was failing.. before it actually did?",
-      "preview_text": "Important updates from Master Systems",
-      "title": "What if your equipment told you it was failing.. before it actually did?",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "Safe Passages and a blessed Eid - From our team to yours.",
+      "preview_text": "Master Systems wishes you a blessed Eid Al Fitr",
+      "title": "EID Seasonal Campaign",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -81,38 +81,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 31713,
-      "unique_opens": 26956,
-      "open_rate": 0.6326348070100096,
-      "clicks": 12341,
-      "subscriber_clicks": 10489,
-      "click_rate": 0.2462042054523127
+      "opens": 1033,
+      "unique_opens": 847,
+      "open_rate": 0.33976847244540254,
+      "clicks": 317,
+      "subscriber_clicks": 269,
+      "click_rate": 0.10423867829996852
     }
   },
   {
-    "id": "camp_003",
-    "web_id": 1002,
+    "id": "3d177e045a",
+    "web_id": 10124425,
     "type": "regular",
-    "create_time": "2026-03-21T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/3",
-    "long_archive_url": "https://example.com/archive/3",
+    "create_time": "2026-03-11T11:25:53+00:00",
+    "archive_url": "http://eepurl.com/jBsdTk",
+    "long_archive_url": "https://mailchi.mp/38fd59a96cae/in-stock-nsr-koden-gps-systems-ready-for-delivery",
     "status": "sent",
-    "emails_sent": 53659,
-    "send_time": "2026-03-23T16:38:12.120Z",
+    "emails_sent": 2339,
+    "send_time": "2026-03-12T05:30:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 53659
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2339
     },
     "settings": {
-      "subject_line": "This holiday season we honor those who keep the world moving",
-      "preview_text": "Important updates from Master Systems",
-      "title": "This holiday season we honor those who keep the world moving",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "In Stock: NSR & Koden GPS Systems Ready for Delivery",
+      "preview_text": "Secure your advanced GPS systems now for timely project completion.",
+      "title": "ShipChandling Products",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -120,38 +120,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 27971,
-      "unique_opens": 23775,
-      "open_rate": 0.5212781422627988,
-      "clicks": 9946,
-      "subscriber_clicks": 8454,
-      "click_rate": 0.18536927453608154
+      "opens": 867,
+      "unique_opens": 710,
+      "open_rate": 0.3708131066035528,
+      "clicks": 218,
+      "subscriber_clicks": 185,
+      "click_rate": 0.09343962527443787
     }
   },
   {
-    "id": "camp_004",
-    "web_id": 1003,
+    "id": "bcbebf1bca",
+    "web_id": 10124417,
     "type": "regular",
-    "create_time": "2026-03-18T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/4",
-    "long_archive_url": "https://example.com/archive/4",
+    "create_time": "2026-03-09T09:13:52+00:00",
+    "archive_url": "http://eepurl.com/jBfIPA",
+    "long_archive_url": "https://mailchi.mp/705046b3c736/so-heres-whats-changed-since-we-last-worked-together-10124417",
     "status": "sent",
-    "emails_sent": 49156,
-    "send_time": "2026-03-20T16:38:12.120Z",
+    "emails_sent": 3571,
+    "send_time": "2026-03-12T04:30:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 49156
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 3571
     },
     "settings": {
-      "subject_line": "Important Update: Changes to HSSEQ Procedures for Enclosed Space Entry",
-      "preview_text": "Important updates from Master Systems",
-      "title": "Important Update: Changes to HSSEQ Procedures for Enclosed Space Entry",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "New IMO Requirement: 5-Gas Detection Mandatory",
+      "preview_text": "Get up to speed on the new 5 Gas detector mandate.",
+      "title": "5 Gas compliance",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -159,38 +159,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 26810,
-      "unique_opens": 22788,
-      "open_rate": 0.5454087023012357,
-      "clicks": 12708,
-      "subscriber_clicks": 10801,
-      "click_rate": 0.258527121432001
+      "opens": 1007,
+      "unique_opens": 825,
+      "open_rate": 0.2822676054449452,
+      "clicks": 196,
+      "subscriber_clicks": 166,
+      "click_rate": 0.05493515598701221
     }
   },
   {
-    "id": "camp_005",
-    "web_id": 1004,
+    "id": "c0732e05a4",
+    "web_id": 10124322,
     "type": "regular",
-    "create_time": "2026-03-15T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/5",
-    "long_archive_url": "https://example.com/archive/5",
+    "create_time": "2026-02-18T09:04:07+00:00",
+    "archive_url": "http://eepurl.com/jzKcg-/",
+    "long_archive_url": "https://mailchi.mp/8c8bb85f9f86/so-heres-whats-changed-since-we-last-worked-together-10124322",
     "status": "sent",
-    "emails_sent": 47776,
-    "send_time": "2026-03-17T16:38:12.120Z",
+    "emails_sent": 2846,
+    "send_time": "2026-02-25T04:30:15+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 47776
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2846
     },
     "settings": {
-      "subject_line": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
-      "preview_text": "Important updates from Master Systems",
-      "title": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "Compliance documentation your crew needs - Breathing Air Monitoring",
+      "preview_text": "Both regulators and safety auditors ask the same question - \"How do you verify your compressed breathing air is safe?\"",
+      "title": "Oil and gas weekly",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -198,38 +198,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 29471,
-      "unique_opens": 25050,
-      "open_rate": 0.6168655173483757,
-      "clicks": 11533,
-      "subscriber_clicks": 9803,
-      "click_rate": 0.24140054521400262
+      "opens": 948,
+      "unique_opens": 777,
+      "open_rate": 0.33317155473628757,
+      "clicks": 126,
+      "subscriber_clicks": 107,
+      "click_rate": 0.044353503867548244
     }
   },
   {
-    "id": "camp_006",
-    "web_id": 1005,
+    "id": "580bc6ac91",
+    "web_id": 10124323,
     "type": "regular",
-    "create_time": "2026-03-12T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/6",
-    "long_archive_url": "https://example.com/archive/6",
+    "create_time": "2026-02-18T10:22:12+00:00",
+    "archive_url": "http://eepurl.com/jzKvUM",
+    "long_archive_url": "https://mailchi.mp/beb94e829ce3/were-ready-for-you-your-lsa-services-when-you-need-it-most-10124323",
     "status": "sent",
-    "emails_sent": 48809,
-    "send_time": "2026-03-14T16:38:12.120Z",
+    "emails_sent": 2685,
+    "send_time": "2026-02-19T04:00:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 48809
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2685
     },
     "settings": {
-      "subject_line": "Reliable Mobile Phones for Tough Environments",
-      "preview_text": "Important updates from Master Systems",
-      "title": "Reliable Mobile Phones for Tough Environments",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "In Stock and Ready for Immediate Delivery - The EEBD, By Shanghai Fangzhan",
+      "preview_text": "When emergency evacuation seconds count, your crew needs reliable breathing protection.",
+      "title": "ShipchandlingNew",
+      "from_name": "Digital Marine Systems",
+      "reply_to": "hello@discover-digitalmarinesystems.com"
     },
     "tracking": {
       "opens": true,
@@ -237,38 +237,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 24833,
-      "unique_opens": 21108,
-      "open_rate": 0.508786719385677,
-      "clicks": 10068,
-      "subscriber_clicks": 8557,
-      "click_rate": 0.2062873508730213
+      "opens": 972,
+      "unique_opens": 797,
+      "open_rate": 0.3621888100429318,
+      "clicks": 133,
+      "subscriber_clicks": 113,
+      "click_rate": 0.04962277126659994
     }
   },
   {
-    "id": "camp_007",
-    "web_id": 1006,
+    "id": "6b7c90e17c",
+    "web_id": 10124307,
     "type": "regular",
-    "create_time": "2026-03-09T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/7",
-    "long_archive_url": "https://example.com/archive/7",
+    "create_time": "2026-02-12T12:27:49+00:00",
+    "archive_url": "http://eepurl.com/jziNR-/",
+    "long_archive_url": "https://mailchi.mp/7205f7b6e188/were-ready-for-you-your-lsa-services-when-you-need-it-most",
     "status": "sent",
-    "emails_sent": 58291,
-    "send_time": "2026-03-11T16:38:12.120Z",
+    "emails_sent": 3171,
+    "send_time": "2026-02-18T04:30:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 58291
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 3171
     },
     "settings": {
-      "subject_line": "UPDATE: Introducing NSR's MED-DNV Certified Fiber Optic Gyro Compass Series",
-      "preview_text": "Important updates from Master Systems",
-      "title": "UPDATE: Introducing NSR's MED-DNV Certified Fiber Optic Gyro Compass Series",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "subject_line": "We’re ready for you - your LSA services, when you need it most",
+      "preview_text": "When your vessel operates in African waters, you need an LSA service provider that actually understands the region",
+      "title": "DMS1",
+      "from_name": "Digital Marine Systems",
+      "reply_to": "hello@discover-digitalmarinesystems.com"
     },
     "tracking": {
       "opens": true,
@@ -276,38 +276,38 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 32829,
-      "unique_opens": 27904,
-      "open_rate": 0.5631988587616327,
-      "clicks": 14735,
-      "subscriber_clicks": 12524,
-      "click_rate": 0.2527999717857362
+      "opens": 845,
+      "unique_opens": 692,
+      "open_rate": 0.2666335718864483,
+      "clicks": 299,
+      "subscriber_clicks": 254,
+      "click_rate": 0.09431979986790744
     }
   },
   {
-    "id": "camp_008",
-    "web_id": 1007,
+    "id": "fd77c74973",
+    "web_id": 10124302,
     "type": "regular",
-    "create_time": "2026-03-06T16:38:12.120Z",
-    "archive_url": "https://example.com/archive/8",
-    "long_archive_url": "https://example.com/archive/8",
+    "create_time": "2026-02-12T08:07:22+00:00",
+    "archive_url": "http://eepurl.com/jzhyvE",
+    "long_archive_url": "https://mailchi.mp/d59843678301/so-heres-whats-changed-since-we-last-worked-together-10124302",
     "status": "sent",
-    "emails_sent": 57920,
-    "send_time": "2026-03-08T16:38:12.120Z",
+    "emails_sent": 2664,
+    "send_time": "2026-02-17T04:30:00+00:00",
     "content_type": "html",
     "recipients": {
       "list_id": "list_001",
       "list_is_active": true,
-      "list_name": "Master Systems Globals",
-      "segment_text": "All active maritime clients",
-      "recipient_count": 57920
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2664
     },
     "settings": {
       "subject_line": "Upgrade Your Fleet's Emergency Response with ACR Emergency Equipment",
-      "preview_text": "Important updates from Master Systems",
-      "title": "Upgrade Your Fleet's Emergency Response with ACR Emergency Equipment",
-      "from_name": "Master Systems Comm",
-      "reply_to": "info@mastersystems.com"
+      "preview_text": "Get your fleet’s emergency equipment to work together as a complete safety system.",
+      "title": "ShipChandling1",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
     },
     "tracking": {
       "opens": true,
@@ -315,12 +315,285 @@ const MOCK_CAMPAIGNS: MailchimpCampaign[] = [
       "text_clicks": true
     },
     "report_summary": {
-      "opens": 37491,
-      "unique_opens": 31867,
-      "open_rate": 0.6472974660484342,
-      "clicks": 11308,
-      "subscriber_clicks": 9611,
-      "click_rate": 0.19524935566148688
+      "opens": 888,
+      "unique_opens": 728,
+      "open_rate": 0.3337077177654806,
+      "clicks": 198,
+      "subscriber_clicks": 168,
+      "click_rate": 0.07460081309756306
+    }
+  },
+  {
+    "id": "411b3c182a",
+    "web_id": 10124284,
+    "type": "regular",
+    "create_time": "2026-02-09T14:58:01+00:00",
+    "archive_url": "http://eepurl.com/jy3Q26",
+    "long_archive_url": "https://mailchi.mp/5933bfaf1843/so-heres-whats-changed-since-we-last-worked-together-10124284",
+    "status": "sent",
+    "emails_sent": 5254,
+    "send_time": "2026-02-11T04:45:00+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 5254
+    },
+    "settings": {
+      "subject_line": "Reliable Mobile Phones for Tough Environments",
+      "preview_text": "Introducing phones designed for hazardous work sites.",
+      "title": "Oil and Gas Mobile",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 1716,
+      "unique_opens": 1407,
+      "open_rate": 0.32674621595764913,
+      "clicks": 523,
+      "subscriber_clicks": 444,
+      "click_rate": 0.09970105470726925
+    }
+  },
+  {
+    "id": "d88eaee8da",
+    "web_id": 10124289,
+    "type": "regular",
+    "create_time": "2026-02-10T07:33:41+00:00",
+    "archive_url": "http://eepurl.com/jy7RZA",
+    "long_archive_url": "https://mailchi.mp/7d912f4e2394/so-heres-whats-changed-since-we-last-worked-together-10124289",
+    "status": "sent",
+    "emails_sent": 3756,
+    "send_time": "2026-02-11T04:30:00+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 3756
+    },
+    "settings": {
+      "subject_line": "UPDATE: Introducing NSR's MED-DNV Certified Fiber Optic Gyro Compass Series",
+      "preview_text": "Navigation technology just evolved - your vessels should too.",
+      "title": "Marine Campaign",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 1153,
+      "unique_opens": 945,
+      "open_rate": 0.3070453418381978,
+      "clicks": 292,
+      "subscriber_clicks": 248,
+      "click_rate": 0.0777994841696695
+    }
+  },
+  {
+    "id": "2d86fb9ef8",
+    "web_id": 10124270,
+    "type": "regular",
+    "create_time": "2026-02-06T04:02:50+00:00",
+    "archive_url": "http://eepurl.com/jyQEoY",
+    "long_archive_url": "https://us4.campaign-archive.com/?u=03ec1fefe04848c1b124754f8&id=2d86fb9ef8",
+    "status": "sent",
+    "emails_sent": 5857,
+    "send_time": "2026-02-06T04:02:58+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 5857
+    },
+    "settings": {
+      "subject_line": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
+      "preview_text": "Check your compliance with the new 5 Gas detector mandate.",
+      "title": "[Re-sent] CO2 Compliance",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 1863,
+      "unique_opens": 1527,
+      "open_rate": 0.3182040954365311,
+      "clicks": 445,
+      "subscriber_clicks": 378,
+      "click_rate": 0.07601144597952478
+    }
+  },
+  {
+    "id": "2771f44e2b",
+    "web_id": 10124214,
+    "type": "regular",
+    "create_time": "2026-01-28T13:02:32+00:00",
+    "archive_url": "http://eepurl.com/jx8rhA",
+    "long_archive_url": "https://mailchi.mp/a2988c9f3e1b/so-heres-whats-changed-since-we-last-worked-together-10124214",
+    "status": "sent",
+    "emails_sent": 2823,
+    "send_time": "2026-02-05T04:30:00+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2823
+    },
+    "settings": {
+      "subject_line": "Is Your CO2 Testing Compliant with IMO MSC.581(110)?",
+      "preview_text": "Check your compliance with the new 5 Gas detector mandate.",
+      "title": "CO2 Compliance",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 1068,
+      "unique_opens": 875,
+      "open_rate": 0.3784684983966002,
+      "clicks": 131,
+      "subscriber_clicks": 111,
+      "click_rate": 0.04664656135272989
+    }
+  },
+  {
+    "id": "0f6830ae2e",
+    "web_id": 10124145,
+    "type": "regular",
+    "create_time": "2026-01-14T08:40:11+00:00",
+    "archive_url": "http://eepurl.com/jwZyk2",
+    "long_archive_url": "https://mailchi.mp/4176dda115fb/so-heres-whats-changed-since-we-last-worked-together-10124145",
+    "status": "sent",
+    "emails_sent": 5939,
+    "send_time": "2026-01-20T04:30:00+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 5939
+    },
+    "settings": {
+      "subject_line": "Important Update: Changes to HSSEQ Procedures for Enclosed Space Entry",
+      "preview_text": "Immediate procedure changes and new Riken 5-gas detector requirement.",
+      "title": "Compliance",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 1311,
+      "unique_opens": 1075,
+      "open_rate": 0.22076078220858217,
+      "clicks": 524,
+      "subscriber_clicks": 445,
+      "click_rate": 0.08834193839740864
+    }
+  },
+  {
+    "id": "9d086fd1ec",
+    "web_id": 10124066,
+    "type": "regular",
+    "create_time": "2025-12-22T08:37:28+00:00",
+    "archive_url": "http://eepurl.com/ju9xUo",
+    "long_archive_url": "https://mailchi.mp/5a023be561b0/so-heres-whats-changed-since-we-last-worked-together-10124066",
+    "status": "sent",
+    "emails_sent": 1801,
+    "send_time": "2026-01-08T04:30:00+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 1801
+    },
+    "settings": {
+      "subject_line": "What if your equipment told you it was failing.. before it actually did?",
+      "preview_text": "Predict failures weeks before shutdown. Cut unplanned downtime. Protect production targets.",
+      "title": "Predictive Maintenenace campaign Oil and Gas",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 566,
+      "unique_opens": 464,
+      "open_rate": 0.3147295038749954,
+      "clicks": 194,
+      "subscriber_clicks": 164,
+      "click_rate": 0.10778431546611522
+    }
+  },
+  {
+    "id": "910d7cea4b",
+    "web_id": 10124092,
+    "type": "regular",
+    "create_time": "2025-12-30T04:55:16+00:00",
+    "archive_url": "http://eepurl.com/jvI6ow",
+    "long_archive_url": "https://mailchi.mp/394157c34191/this-holiday-season-we-honor-those-who-keep-the-world-moving-10124092",
+    "status": "sent",
+    "emails_sent": 2306,
+    "send_time": "2025-12-31T08:01:34+00:00",
+    "content_type": "html",
+    "recipients": {
+      "list_id": "list_001",
+      "list_is_active": true,
+      "list_name": "Master Systems Active Clients",
+      "segment_text": "All active clients",
+      "recipient_count": 2306
+    },
+    "settings": {
+      "subject_line": "This holiday season we honor those who keep the world moving",
+      "preview_text": "A note of appreciation from Master Systems.",
+      "title": "NewYearFinalEmail",
+      "from_name": "Master Systems",
+      "reply_to": "hello@discover-mastersystems.com"
+    },
+    "tracking": {
+      "opens": true,
+      "html_clicks": true,
+      "text_clicks": true
+    },
+    "report_summary": {
+      "opens": 633,
+      "unique_opens": 519,
+      "open_rate": 0.27479609590586557,
+      "clicks": 166,
+      "subscriber_clicks": 141,
+      "click_rate": 0.07210452367489771
     }
   }
 ];
