@@ -33,7 +33,7 @@ export function AppShell({ children }: { children: React.ReactNode }) {
             </div>
             <div>
               <h1 className="text-sm font-semibold tracking-tight text-white">Mailchimp Live</h1>
-              <p className="text-[9px] text-surface-500 uppercase tracking-widest font-medium mt-0.5">Master Systems Dashboard</p>
+              <p className="text-[9px] text-surface-500 uppercase tracking-widest font-medium mt-0.5">Email Marketing Dashboard</p>
             </div>
           </div>
           
